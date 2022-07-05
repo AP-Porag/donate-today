@@ -102,3 +102,16 @@ footer h2{
 .input:focus {
     outline: none;
 }
+/*footer*/
+.footer-container{
+    padding: 100px 0;
+    background: #121212;
+    text-align: center;
+}
+.footer-container h2{
+    color: #FF5959;
+}
+.footer-container p{
+    color: #D9DBE1;
+    margin-top: 15px;
+}
