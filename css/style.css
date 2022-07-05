@@ -25,6 +25,7 @@ body{
     font-size: 45px;
     text-align: center;
     color: #121212;
+    margin-bottom:20px;
 }
 footer h2{
     font-family: 'Lobster', cursive;
@@ -101,6 +102,65 @@ footer h2{
 }
 .input:focus {
     outline: none;
+}
+/*Plan*/
+#plan{
+    padding: 100px 0;
+}
+.plan-item-box{
+    display: flex;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.plan-item{
+    padding: 40px 30px;
+    margin-right: 15px;
+}
+.plan-item h3{
+    margin: 15px 0;
+}
+.item-one{
+    background: #edf5f6;
+}
+.item-two{
+    background: #ffeeee;
+}
+.item-three{
+    background: #fff4d6;
+}
+/*appeals*/
+.appeals-item-box{
+    display: flex;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.appeals-item{
+    padding: 40px 30px;
+    margin-right: 15px;
+    text-align: center;
+}
+.appeals-item h3{
+    margin: 15px 0;
+}
+.appeal-two{
+    border-right: 3px solid #E6E7E8;
+    border-left: 3px solid #E6E7E8;
+}
+.appeals-item h2{
+    border-bottom: 5px solid #E31E30;
+    color: #2f2f2f;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 0 10px 8px;
+    font-weight: 600;
 }
 /*update*/
 #update{
