@@ -20,6 +20,12 @@ body{
     font-weight: bold;
     border-radius: 5px;
 }
+.section-heading{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #121212;
+}
 footer h2{
     font-family: 'Lobster', cursive;
 }
@@ -45,4 +51,54 @@ footer h2{
 }
 .hero-container .normal-text{
     margin-bottom: 60px;
+}
+/*donate today section*/
+#donate-today{
+    padding: 100px 0px;
+    text-align: center;
+}
+.donate-amount-container{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.donate-amount{
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 30px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.donate-amount p{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+}
+.donate-amount:hover{
+    border: 1px solid #FF5959;
+    background: #fce9e9;
+}
+.donate-amount:hover p{
+    color: #FF5959;
+}
+.input-box{
+    width: 50%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.input{
+    margin-bottom: 30px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid #dadada;
+    text-align: center;
+    width: 40%;
+}
+.input:focus {
+    outline: none;
 }
