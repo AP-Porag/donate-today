@@ -154,8 +154,11 @@ footer h2{
     border-right: 3px solid #E6E7E8;
     border-left: 3px solid #E6E7E8;
 }
+.appeals-item img{
+    height: 60px;
+}
 .appeals-item h2{
-    border-bottom: 5px solid #E31E30;
+    border-bottom: 5px solid #FF5959;
     color: #2f2f2f;
     font-size: 16px;
     margin-top: 20px;
